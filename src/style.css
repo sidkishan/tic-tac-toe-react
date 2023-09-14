@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  padding: 0;
+  background-color: #564779;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+.app {
+  margin-top: 5%;
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 40px;
+  justify-content: center;
+
+  align-items: center;
+}
+code {
+  font-size: 1.2em;
+}
+.game-title {
+  color: antiquewhite;
+  border: 1px solid #ffeae8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #a57086;
+}
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.square {
+  font-family: "Short Stack", cursive;
+  background: #2b2f6c;
+  border: 1px solid #a57086;
+  color: #ffeae8;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 104px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 104px;
+  border-radius: 15px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  padding: 0 5px;
+  background-color: plum;
+  width: max-content;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.game {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
+}
+
+.game-info {
+  margin-top: -7px;
+}
+.game-info p {
+  padding-left: 10px;
+}
+.game-info button {
+  background: #9d6c82;
+  color: #f6f6f6;
+  box-shadow: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-family: "Overpass", sans-serif;
+  margin: 2px;
+}
